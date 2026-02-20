@@ -1,7 +1,7 @@
 if SHIELD_POACHED_EGGS_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Poached Eggs"
+    default "poached-eggs"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
