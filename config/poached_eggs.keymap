@@ -1,10 +1,8 @@
+#include <input/processors.dtsi>
+#include <behaviors/battery_history_request.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-
-#include <input/processors.dtsi>
-#include <behaviors/battery_history_request.dtsi>
-
 
 / {
     keymap {
@@ -21,10 +19,10 @@
 
         lower_layer {
             bindings = <
-&kp ESC    &kp N1    &kp N2  &kp N3    &kp N4      &kp N5                      &kp N6     &kp N7    &kp N8     &kp N9          &kp N0           &kp GRAVE
-&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PRCNT                   &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR        &kp RPAR         &kp TILDE
-&kp RET    &none     &none   &none     &none       &none                       &none      &none     &none      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE
-&none      &none     &none   &trans    &trans      &trans     &kp DEL  &trans  &mo 3      &trans    &trans     &none           &none            &none
+&trans  &kp N1    &kp N2  &kp N3    &kp N4      &kp N5                      &kp N6     &kp N7    &kp N8     &kp N9          &kp N0           &kp GRAVE
+&trans  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PRCNT                   &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR        &kp RPAR         &kp TILDE
+&trans  &none     &none   &none     &none       &none                       &none      &none     &none      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE
+&none   &none     &none   &trans    &trans      &trans     &kp DEL  &trans  &mo 3      &trans    &trans     &none           &none            &none
             >;
         };
 
