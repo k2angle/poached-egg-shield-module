@@ -11,6 +11,11 @@
             bindings = <&kp LANGUAGE_2>;
             key-positions = <16 15>;
         };
+
+        blue {
+            bindings = <&lt 4 ESCAPE>;
+            key-positions = <37 38 39>;
+        };
     };
 
     keymap {
