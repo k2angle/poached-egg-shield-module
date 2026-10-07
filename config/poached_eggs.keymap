@@ -32,10 +32,10 @@
 
         layer1 {
             bindings = <
-&kp ESC    &kp N1    &kp N2  &kp N3    &kp N4      &kp N5                      &kp N6     &kp N7    &kp N8     &kp N9          &kp N0           &kp GRAVE
-&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PRCNT                   &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR        &kp RPAR         &kp TILDE
-&kp RET    &none     &none   &none     &none       &none                       &none      &none     &none      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE
-&none      &none     &none   &trans    &trans      &trans     &kp DEL  &trans  &mo 3      &trans    &trans     &none           &none            &none
+&trans  &kp N1    &kp N2  &kp N3    &kp N4      &kp N5                     &trans     &kp RC(LEFT_ARROW)  &kp RC(RIGHT_ARROW)  &trans  &trans                    &trans
+&trans  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PRCNT                  &kp RG(R)  &mkp MB1            &mkp MB2             &trans  &kp RG(W)                 &trans
+&trans  &none     &none   &none     &none       &none                      &kp RG(C)  &kp RG(V)           &none                &trans  &kp RG(RS(RC(NUMBER_4)))  &trans
+&trans  &none     &none   &trans    &trans      &trans     &trans  &trans  &trans     &trans              &trans               &trans  &none                     &trans
             >;
         };
 
