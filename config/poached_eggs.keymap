@@ -23,19 +23,19 @@
 
         default_layer {
             bindings = <
-&trans  &kp Q             &kp W         &kp E         &kp R     &kp T                                            &kp RG(RBKT)  &kp RG(LBKT)  &trans     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans
-&trans  &kp A             &kp S         &kp D         &lt 3 F   &kp G                                            &kp Y         &kp U         &kp I      &kp O              &kp P            &trans
-&trans  &kp Z             &kp X         &kp C         &kp V     &kp B                                            &kp H         &kp J         &lt 3 K    &lt 1 L            &kp MINUS        &trans
-&trans  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_WIN  &mkp MB1  &lt 2 SPACE  &mt LEFT_SHIFT LANGUAGE_1  &kp DEL  &kp N         &kp M         &kp COMMA  &kp DOT            &kp FSLH         &studio_unlock
+&trans             &kp Q             &kp W         &kp E         &kp R     &kp T                                            &kp RG(RBKT)  &kp RG(LBKT)  &trans     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans
+&kp K_SCROLL_UP    &kp A             &kp S         &kp D         &lt 3 F   &kp G                                            &kp Y         &kp U         &kp I      &kp O              &kp P            &trans
+&kp K_SCROLL_DOWN  &kp Z             &kp X         &kp C         &kp V     &kp B                                            &kp H         &kp J         &lt 3 K    &lt 1 L            &kp MINUS        &trans
+&trans             &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_WIN  &mkp MB1  &lt 2 SPACE  &mt LEFT_SHIFT LANGUAGE_1  &kp DEL  &kp N         &kp M         &kp COMMA  &kp DOT            &kp FSLH         &studio_unlock
             >;
         };
 
         layer1 {
             bindings = <
-&trans  &trans  &trans  &trans          &msc SCRL_UP    &trans                           &trans     &trans              &trans               &trans  &trans                    &trans
-&trans  &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT                  &trans     &kp RC(LEFT_ARROW)  &kp RC(RIGHT_ARROW)  &trans  &trans                    &trans
-&trans  &trans  &trans  &trans          &trans          &trans                           &kp RG(R)  &mkp MB1            &mkp MB2             &trans  &kp RG(W)                 &trans
-&trans  &trans  &trans  &trans          &trans          &trans           &trans  &trans  &kp RG(C)  &kp RG(V)           &trans               &trans  &kp RS(RC(RG(NUMBER_4)))  &trans
+&trans  &trans  &trans  &trans                 &msc SCRL_UP    &trans                                &trans     &trans              &trans               &trans  &trans                    &trans
+&trans  &trans  &trans  &msc SCRL_LEFT         &msc SCRL_DOWN  &msc SCRL_RIGHT                       &trans     &kp RC(LEFT_ARROW)  &kp RC(RIGHT_ARROW)  &trans  &trans                    &trans
+&trans  &trans  &trans  &kp LG(RIGHT_BRACKET)  &trans          &kp LG(LEFT_BRACKET)                  &kp RG(R)  &mkp MB1            &mkp MB2             &trans  &kp RG(W)                 &trans
+&trans  &trans  &trans  &trans                 &trans          &trans                &trans  &trans  &kp RG(C)  &kp RG(V)           &trans               &trans  &kp RS(RC(RG(NUMBER_4)))  &trans
             >;
         };
 
