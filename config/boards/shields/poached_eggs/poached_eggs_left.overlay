@@ -1,4 +1,6 @@
 #include "poached_eggs.dtsi"
+#include <input/processors.dtsi>
+#include <dt-bindings/zmk/input_transform.h>
 
 &xiao_serial { status = "disabled"; };
 
@@ -12,4 +14,31 @@
         , <&xiao_d 5 GPIO_ACTIVE_HIGH>
         , <&xiao_d 6 GPIO_ACTIVE_HIGH>
         ;
+};
+
+/ {
+    split_inputs {
+        #address-cells = <1>;
+        #size-cells = <0>;
+
+        nape_split: nape_split@1 {
+            compatible = "zmk,input-split";
+            reg = <1>;
+        };
+    };
+
+    nape_trackball_listener {
+        compatible = "zmk,input-listener";
+        device = <&nape_split>;
+
+        // Layer 3が有効な間はスクロールに切り替える
+        scroller {
+            layers = <3>;
+            input-processors =
+                <&zip_xy_scaler 1 5>,
+                <&zip_xy_to_scroll_mapper>,
+                <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,
+                <&zip_scroll_scaler 1 4>;
+        };
+    };
 };
