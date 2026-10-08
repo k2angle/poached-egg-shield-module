@@ -27,6 +27,9 @@
 &trans  &kp A             &kp S         &kp D         &lt 3 F   &kp G                                            &kp Y         &kp U         &kp I      &kp O              &kp P            &trans
 &trans  &kp Z             &kp X         &kp C         &kp V     &kp B                                            &kp H         &kp J         &lt 3 K    &lt 1 L            &kp MINUS        &mkp MB3
 &trans  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &mkp MB1  &lt 2 SPACE  &mt LEFT_SHIFT LANGUAGE_1  &kp DEL  &kp N         &kp M         &kp COMMA  &kp DOT            &kp FSLH         &mkp MB3
+
+// Nape: positions 50, 51, 52
+&kp DEL  &lt 3 ENTER  &kp BACKSPACE
             >;
         };
 
@@ -36,6 +39,9 @@
 &trans  &trans  &trans  &msc SCRL_LEFT         &msc SCRL_DOWN  &msc SCRL_RIGHT                       &trans     &kp RC(LEFT_ARROW)  &kp RC(RIGHT_ARROW)  &trans  &trans                    &trans
 &trans  &trans  &trans  &kp LG(RIGHT_BRACKET)  &trans          &kp LG(LEFT_BRACKET)                  &kp RG(R)  &mkp MB1            &mkp MB2             &trans  &kp RG(W)                 &trans
 &trans  &trans  &trans  &trans                 &trans          &trans                &trans  &trans  &kp RG(C)  &kp RG(V)           &trans               &trans  &kp RS(RC(RG(NUMBER_4)))  &trans
+
+// Nape: positions 50, 51, 52
+&kp LG(RIGHT_BRACKET)  &kp LG(LEFT_BRACKET)  &trans
             >;
         };
 
@@ -45,6 +51,9 @@
 &none  &kp EXCL      &kp AT        &kp HASH       &kp LEFT_BRACKET      &kp RIGHT_BRACKET                    &kp NUMBER_6  &kp N7          &kp N8            &kp N9            &kp N0             &none
 &none  &kp DOLLAR    &kp PERCENT   &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                &none         &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp SEMICOLON     &kp COLON          &none
 &none  &none         &none         &none          &none                 &none                  &none  &none  &none         &kp LESS_THAN   &kp GREATER_THAN  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &none
+
+// Nape: positions 50, 51, 52
+&trans  &trans  &trans
             >;
         };
 
@@ -54,6 +63,9 @@
 &none  &kp INT_YEN    &kp KP_N4  &kp KP_N5  &kp KP_N6        &kp KP_PLUS                        &none    &none           &kp UP_ARROW    &none            &none  &none
 &none  &kp KP_N0      &kp KP_N1  &kp KP_N2  &kp KP_N3        &kp KP_MINUS                       &kp F7   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none  &none
 &none  &none          &none      &none      &kp KP_MULTIPLY  &kp KP_SLASH  &kp KP_EQUAL  &none  &kp F10  &none           &none           &none            &none  &none
+
+// Nape: positions 50, 51, 52
+&trans  &trans  &trans
             >;
         };
 
@@ -63,6 +75,9 @@
 &trans  &trans  &trans  &trans  &trans  &trans                      &trans        &trans        &trans        &trans        &trans        &trans
 &trans  &trans  &trans  &trans  &trans  &trans                      &trans        &trans        &trans        &trans        &trans        &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_CLR  &trans        &trans        &trans        &trans        &trans        &trans
+
+// Nape: positions 50, 51, 52
+&trans  &trans  &trans
             >;
         };
     };
